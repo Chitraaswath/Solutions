@@ -5,7 +5,7 @@ package Search;
 public class FloorCeilOfArray {
 
     public static void main(String[] args) {
-        int ar[] = { 134, 393, 508, 10, 100, 12, 199 };
+        int ar[] = { 134, 393, 508, 109, 100, 12, 199 };
         int key = 500;
         String  floor = findCeilFloor(ar, key);
         System.out.print("Floor and Ceil of " + key + " is : " + floor);
