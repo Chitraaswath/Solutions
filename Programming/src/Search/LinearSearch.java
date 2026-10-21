@@ -4,9 +4,10 @@ import java.util.Arrays;
 
 //Linear Data Structures - Arrays/List, Linked List, Stacks, Queues
 //Called as linear data structures as they store data next to each other
+
 public class LinearSearch {
 	public static void main(String args[]) {
-		int arr[] = {23, 54, 57, 12, 90};
+		int arr[] = {23, 54, 57, 112, 90};
 		int key = 57;
 		System.out.println(linerSearch(arr, key));   // O(n)
 		System.out.println(binarySearch(arr, key));  // O(log n)
