@@ -16,7 +16,7 @@ public class LinearSearch {
 	static int binarySearch(int[] arr, int key) {   // O(n log n(sorting the array) + log n (for binary search))
 		int low=0;
 		int high=arr.length;
-		Arrays.sort(arr);               //O(n log n)
+		Arrays.sort(arr);               // O(n log n)
 		while(low<=high)
 		{
 			int mid=(low+high)/2;
