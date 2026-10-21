@@ -29,7 +29,7 @@ public class FloorCeilOfArray {
             }
         }
         System.out.println("Floor: " + floor);
-        System.out.println("Ceil: " + ceil );
+        System.out.println("Ceil: " + ceil ); 
         ceilFloor = "Floor : " + floor + " Ceil : " + ceil;
         return ceilFloor;
     }
